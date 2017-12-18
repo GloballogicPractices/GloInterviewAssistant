@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Socket Demo</title>
+		<script src="http://localhost:3001/socket.io/socket.io.js"></script>
+	</head>
+	<body>
+		<h1>Welcome</h1>
+		<script>
+		  var socket = io('http://localhost:3001');
+		  socket.on('connected', function(results){
+			console.log('connected');
+			console.log('results: '+JSON.stringify(results));
+		  });
+		  socket.on('getResults', function(data){
+			console.log('results: '+JSON.stringify(data));
+		  });
+		  socket.on('disconnect', function(){
+			console.log('disconnected');
+		  });
+		</script> 
+	</body>
+</html>

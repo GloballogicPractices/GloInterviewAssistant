@@ -1,0 +1,116 @@
+body {
+    background-image: url("../image/bg.jpg");
+    font-family: "Helvetica Neue", "Open Sans", Arial, sans-serif;
+}
+div#fixedheader {
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:100%;
+    color:#CCC;
+    background:#333;
+}
+.interviewChart{
+    margin-top:100px;
+}
+.highcharts-container {
+    position:static!important;
+}
+#fixedheader img.leftImg{
+    height: 100px;
+    width: 100px;
+}
+#fixedheader span{
+    color: #ffffff;
+    width:100%;
+    text-align: center;
+}
+.dataTables_wrapper {
+    background: #000000;
+    font-weight:normal;
+    padding: 20px;
+    color: #ffffff;
+    border-radius: 5px;
+}
+.dataTables_paginate{
+    color:#ffffff;
+}
+.dataTables_length select{
+    color:grey;
+}
+.dataTables_wrapper table{
+    color:#ffffff;
+}
+.dataTables_wrapper table th{
+    color:#ffffff;
+    font-weight:bold;
+}
+.dataTables_wrapper table tr.odd{
+    color:#000000;
+}
+.footer{
+    background: #000000;
+    color: #ffffff;
+    padding: 10px;
+}
+.table,.dataTableCandidate{
+    color:#ffffff;
+    border:1px solid #ffffff;
+}
+.dataTableCandidate thead{
+    visibility: hidden;
+}
+.rightImg{
+    width: 200px;
+    height: 100px;
+}
+.centerImg{
+    height:90px;
+}
+.inteviewTableData{
+    margin: 50px;
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    -moz-box-shadow: 0 0 5px #999;
+    -webkit-box-shadow: 0 0 5px #999;
+    box-shadow: 0 0 5px #999;
+}
+.searchPanel{
+    float:right;
+    padding: 10px;
+}
+.show{
+    display:table-row!important;
+}
+.accordion-body td {
+    font-size: 14px;
+}
+.accordion-body td span{
+    font-size: 12px;
+    font-weight: italic;
+}
+.smarter{
+    padding: 10px;
+    background-color: #f60;
+    color: #ffffff;
+    border:0;
+}
+.unmached{
+    text-align: right;
+    padding: 30px;
+}
+.unmachedQuestionPanel{
+    background:#ffffff;
+    width: 50%;
+    padding: 30px;
+    margin: 30px;
+    display: none;
+    border-radius: 10px;
+     -moz-box-shadow: 0 0 5px grey;
+    -webkit-box-shadow: 0 0 5px grey;
+    box-shadow: 0 0 5px grey;
+}
+.questionPanel{
+    padding-top: 10px;
+}
